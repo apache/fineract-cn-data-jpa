@@ -16,7 +16,7 @@ plugins {
     id "com.github.hierynomus.license" version "0.13.1"
 }
 
-group 'io.mifos.core'
+group 'org.apache.fineract.cn'
 version '0.1.0-BUILD-SNAPSHOT'
 
 apply plugin: 'java'
@@ -45,13 +45,12 @@ dependencies {
             [group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.1.RELEASE'],
             [group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.1.1'],
             [group: 'org.liquibase', name: 'liquibase-core', version: '3.5.3'],
-            [group: 'io.mifos.core', name: 'lang', version: '0.1.0-BUILD-SNAPSHOT'],
+            [group: 'org.apache.fineract.cn', name: 'lang', version: '0.1.0-BUILD-SNAPSHOT'],
             [group: 'com.google.code.findbugs', name: 'jsr305']
     )
 
     testCompile (
             [group: 'org.springframework.boot', name: 'spring-boot-starter-test'],
-//            [group: 'io.mifos.', name: 'spring-boot-starter-test'],
             [group: 'org.hsqldb', name: 'hsqldb', version: '2.3.4']
     )
 }
