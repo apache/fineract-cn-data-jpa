@@ -19,5 +19,5 @@
 package org.apache.fineract.cn.core.data.jpa.core;
 
 public interface DatabaseConnectorConstants {
-  String LOGGER_NAME = "mifosio-data-jpa-logger";
+  String LOGGER_NAME = "fineract-cn-data-jpa-logger";
 }
