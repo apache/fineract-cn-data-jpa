@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.core;
+package org.apache.fineract.cn.core.data.jpa.core;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

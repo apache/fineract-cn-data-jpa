@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.local.repository;
+package org.apache.fineract.cn.core.data.jpa.local.repository;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

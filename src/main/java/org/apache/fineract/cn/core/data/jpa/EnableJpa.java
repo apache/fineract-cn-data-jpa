@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa;
+package org.apache.fineract.cn.core.data.jpa;
 
-import io.mifos.core.data.jpa.core.DatabaseConnectorConfiguration;
+import org.apache.fineract.cn.core.data.jpa.core.DatabaseConnectorConfiguration;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.Documented;

@@ -16,8 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.core;
+package org.apache.fineract.cn.core.data.jpa.local.repository;
 
-public interface DatabaseConnectorConstants {
-  String LOGGER_NAME = "mifosio-data-jpa-logger";
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface DataSourceInstanceRepository extends JpaRepository<DataSourceInstance, String> {
 }

@@ -16,10 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.local;
+package org.apache.fineract.cn.core.data.jpa.local;
 
-import io.mifos.core.data.jpa.core.MigrationHelper;
-import io.mifos.core.data.jpa.local.repository.DataSourceInstance;
+import org.apache.fineract.cn.core.data.jpa.core.MigrationHelper;
+import org.apache.fineract.cn.core.data.jpa.local.repository.DataSourceInstance;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.apache.fineract.cn.lang.TenantContextHolder;
 import org.slf4j.Logger;
