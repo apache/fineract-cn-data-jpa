@@ -20,8 +20,8 @@ package io.mifos.core.data.jpa.local;
 
 import io.mifos.core.data.jpa.core.MigrationHelper;
 import io.mifos.core.data.jpa.local.repository.DataSourceInstance;
-import io.mifos.core.lang.TenantContextHolder;
 import org.apache.commons.dbcp2.BasicDataSource;
+import org.apache.fineract.cn.lang.TenantContextHolder;
 import org.slf4j.Logger;
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
