@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa;
+package org.apache.fineract.cn.core.data.jpa;
 
-import io.mifos.core.data.jpa.core.VersionComparator;
+import org.apache.fineract.cn.core.data.jpa.core.VersionComparator;
 import liquibase.changelog.ChangeSet;
 import org.junit.Assert;
 import org.junit.Test;

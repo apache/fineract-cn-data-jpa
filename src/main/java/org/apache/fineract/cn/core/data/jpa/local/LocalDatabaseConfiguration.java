@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.local;
+package org.apache.fineract.cn.core.data.jpa.local;
 
-import io.mifos.core.data.jpa.core.DatabaseConnectorConstants;
+import org.apache.fineract.cn.core.data.jpa.core.DatabaseConnectorConstants;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -37,7 +37,7 @@ import java.util.HashMap;
 })
 @EnableJpaRepositories(
     basePackages = {
-        "io.mifos.core.data.jpa.local.repository"
+        "org.apache.fineract.cn.core.data.jpa.local.repository"
     }
 )
 public class LocalDatabaseConfiguration {

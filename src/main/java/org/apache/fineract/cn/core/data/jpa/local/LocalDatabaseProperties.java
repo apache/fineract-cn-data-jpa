@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.local;
+package org.apache.fineract.cn.core.data.jpa.local;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -16,8 +16,24 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa.core;
+package org.apache.fineract.cn.core.data.jpa;
 
-public interface DatabaseConnectorConstants {
-  String LOGGER_NAME = "mifosio-data-jpa-logger";
+import org.apache.fineract.cn.core.data.jpa.core.DatabaseConnectorConfiguration;
+import org.springframework.context.annotation.Import;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Inherited;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+@Inherited
+@Import({
+    DatabaseConnectorConfiguration.class
+})
+public @interface EnableJpa {
 }

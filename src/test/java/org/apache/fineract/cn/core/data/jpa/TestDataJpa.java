@@ -16,12 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package io.mifos.core.data.jpa;
+package org.apache.fineract.cn.core.data.jpa;
 
-import io.mifos.core.data.jpa.local.repository.DataSourceInstance;
-import io.mifos.core.data.jpa.local.repository.DataSourceInstanceRepository;
-import io.mifos.core.lang.AutoTenantContext;
-import io.mifos.core.lang.TenantContextHolder;
+import org.apache.fineract.cn.core.data.jpa.local.repository.DataSourceInstance;
+import org.apache.fineract.cn.core.data.jpa.local.repository.DataSourceInstanceRepository;
+import org.apache.fineract.cn.lang.AutoTenantContext;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
