@@ -1,4 +1,4 @@
-# Apache Fineract CN data-jpa
+# Apache Fineract CN data-jpa [![Build Status](https://api.travis-ci.com/apache/fineract-cn-data-jpa.svg?branch=develop)](https://travis-ci.com/apache/fineract-cn-data-jpa)
 
 Data JPA provides easy access to tenant databases.
 
