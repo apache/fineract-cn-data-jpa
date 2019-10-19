@@ -40,7 +40,7 @@ plugins {
 }
 
 group 'org.apache.fineract.cn'
-version '0.1.0-BUILD-SNAPSHOT'
+version '0.1.x-SNAPSHOT'
 
 apply plugin: 'propdeps'
 apply plugin: 'propdeps-idea'
@@ -65,7 +65,7 @@ dependencies {
             [group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.1.RELEASE'],
             [group: 'org.apache.commons', name: 'commons-dbcp2', version: '2.1.1'],
             [group: 'org.liquibase', name: 'liquibase-core', version: '3.5.3'],
-            [group: 'org.apache.fineract.cn', name: 'lang', version: '0.1.0-BUILD-SNAPSHOT'],
+            [group: 'org.apache.fineract.cn', name: 'lang', version: '0.1.x-SNAPSHOT'],
             [group: 'com.google.code.findbugs', name: 'jsr305']
     )
 
