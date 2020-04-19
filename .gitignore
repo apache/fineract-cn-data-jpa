@@ -3,6 +3,10 @@
 **/build/
 **/target/
 **/out/
+.project
+.settings
+.classpath
+bin
 
 # Ignore Gradle GUI config
 gradle-app.setting
