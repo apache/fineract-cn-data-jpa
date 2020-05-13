@@ -18,6 +18,7 @@
  */
 package org.apache.fineract.cn.core.data.jpa;
 
+
 import org.apache.fineract.cn.core.data.jpa.local.repository.DataSourceInstance;
 import org.apache.fineract.cn.core.data.jpa.local.repository.DataSourceInstanceRepository;
 import org.apache.fineract.cn.lang.AutoTenantContext;
@@ -57,10 +58,10 @@ public class TestDataJpa {
     dataSourceInstance.setUsername("SA");
 
     this.dataSourceInstanceRepository.save(dataSourceInstance);
-    Assert.assertNotNull(this.dataSourceInstanceRepository.findOne(randomIdentifier));
+    Assert.assertNotNull(this.dataSourceInstanceRepository.findById(randomIdentifier));
 
     try (final AutoTenantContext autoTenantContext = new AutoTenantContext(randomIdentifier)) {
-      this.dataSourceInstanceRepository.findOne(randomIdentifier);
+      this.dataSourceInstanceRepository.findById(randomIdentifier);
       Assert.fail();
     } catch (final Exception ex) {
       // do nothing expected
